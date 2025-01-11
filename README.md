@@ -14,9 +14,9 @@ This project demonstrates a **Fraud Detection Data Pipeline** using modern data 
 
 ## Overview
 
-The Fraud Detection Data Pipeline is a scalable solution for detecting fraudulent transactions in real-time. It ingests transaction data via **Kafka**, processes it with a pre-trained **Machine Learning (ML) model**, and stores the results in a PostgreSQL database for further analysis. 
+The Fraud Detection Data Pipeline is a  detecting fraudulent transactions in real-time. It ingests transaction data via Kafka, processes it with a pre-trained Machine Learning (ML) model, and stores the results in a PostgreSQL database for further analysis.
 
-The pipeline is managed by **Apache Airflow**, ensuring a robust and automated workflow.
+The pipeline is managed by Apache Airflow, ensuring a robust and automated workflow.
 
 ---
 
@@ -58,7 +58,6 @@ The fraud detection model was trained using the [Credit Card Fraud Detection Dat
 ## Features
 
 - **Real-time Processing**: Detect fraud from streaming transaction data.
-- **Scalable**: Supports high throughput with Kafka and PostgreSQL.
 - **Automated Workflow**: Managed by Airflow DAGs.
 - **Containerized Deployment**: Fully deployable using Docker Compose.
 
