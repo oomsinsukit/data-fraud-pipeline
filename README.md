@@ -8,8 +8,6 @@ This project demonstrates a **Fraud Detection Data Pipeline** using modern data 
 - [Technologies Used](#technologies-used)
 - [Architecture](#architecture)
 - [Features](#features)
-- [Setup](#setup)
-- [Usage](#usage)
 - [Folder Structure](#folder-structure)
 
 ---
@@ -63,16 +61,3 @@ The fraud detection model was trained using the [Credit Card Fraud Detection Dat
 - **Containerized Deployment**: Fully deployable using Docker Compose.
 
 ---
-
-## Setup
-
-### Prerequisites
-- Docker & Docker Compose installed.
-- Basic knowledge of Kafka, PostgreSQL, and Python.
-
-### Steps
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-repo/fraud-detection-pipeline.git
-   cd fraud-detection-pipeline
