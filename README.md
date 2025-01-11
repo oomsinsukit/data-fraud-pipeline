@@ -40,6 +40,8 @@ The fraud detection model was trained using the [Credit Card Fraud Detection Dat
 
 ## Architecture
 
+<img src="Architecture.png">
+
 ### Workflow
 1. **Transaction Data Stream**: Kafka producers stream transaction data to the `transactions` topic.
 2. **Fraud Detection**: 
